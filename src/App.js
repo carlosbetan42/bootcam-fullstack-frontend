@@ -37,7 +37,7 @@ const App = () => {
 
     //}, 2000);
 
-  }, [newNote]);
+  }, []);
 
   const handleChange = (event) => {
     setNewNote(event.target.value);
